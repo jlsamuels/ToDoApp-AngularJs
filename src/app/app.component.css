@@ -1,0 +1,95 @@
+/*Google fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+form {
+    max-width: 25em;
+    margin: 1em auto;
+}
+
+form {
+    max-width: 30em;
+    margin: 4em auto;
+    position: relative;
+    background: #474747;
+    padding: 2em 3em;
+}
+
+form h1 {
+    font-family: "Raleway";
+    color: rgb(187, 96, 17);
+}
+
+form input[type=text]::placeholder {
+    font-family: "Raleway";
+    color: #666;
+}
+
+form .data {
+    margin-top: 5em;
+    right: 20px;
+}
+
+form .data li {
+    background: #fff;
+    border-left: 4px solid rgb(42, 44, 167);
+    padding: 1em;
+    margin: 1em auto;
+    color: #666;
+    font-family: "Raleway";
+}
+
+form .data li i {
+    float: right;
+    color: #888;
+    cursor: pointer;
+}
+
+form .input-group-text {
+    background: rgb(76, 57, 180);
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    padding: 1em 23px;
+    color: #fff;
+    position: absolute;
+    right: 13px;
+    top: 68px;
+    cursor: pointer;
+}
+
+form .input-group-text i {
+    font-size: 2em;
+}
+
+form .form-control {
+    height: 3em;
+    font-family: "Raleway";
+}
+
+form .form-control:focus {
+    box-shadow: 0;
+}
+
+div .listinstyled {
+    background: rgb(238, 230, 230);
+    border-left: 4px solid rgb(43, 62, 173);
+    width: 20em;
+    color: rgb(0, 0, 0);
+    font-family: "Raleway";
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+div .positiondelete {
+    right: 5%;
+    position: absolute;
+}
